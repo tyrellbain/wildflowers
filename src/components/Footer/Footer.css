@@ -1,0 +1,11 @@
+.Footer__root {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  height: 100px;
+  justify-content: center;
+}
+
+.Footer__icon {
+
+}

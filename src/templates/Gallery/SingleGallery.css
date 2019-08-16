@@ -1,0 +1,22 @@
+.SingleGallery__content {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.SingleGallery__title {
+  margin-bottom: 0.5em;
+}
+
+.SingleGallery__location,
+.SingleGallery__date {
+  margin: 0;
+}
+
+.SingleGallery__photogInfo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.SingleGallery__photogLink {
+  color: #146f2e;
+}

@@ -1,0 +1,15 @@
+[
+  {
+  "logo": {
+    "imgSrc": "./images/site/logo.jpg",
+    "imgAlt": "Wildflowers & Co Florist"
+  },
+  "items":
+    [
+      {"name": "ABOUT", "slug": "about"},
+      {"name": "WEDDING GALLERIES", "slug": "gallery"},
+      {"name": "CHUPPAHS", "slug": "chuppahs"},
+      {"name": "CONTACT", "slug": "contact"}
+    ]
+  }
+]

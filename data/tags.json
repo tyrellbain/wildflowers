@@ -1,0 +1,179 @@
+[
+    {
+      "name": "Jenny & Lucas",
+      "slug": "jenny-lucas",
+      "cover": "./images/jenny_lucas/jenny_lucas_cover.jpg",
+      "asideCopy":
+      {
+        "location": "York Mills Gallery",
+        "date": "September 14, 2018",
+        "photog": "Mango Studios",
+        "photogLink": "https://mangostudios.com/"
+      }
+
+    },
+    {
+      "name": "Lauren & Jeff",
+      "slug": "lauren-jeff",
+      "cover": "./images/lauren_jeff/lauren_jeff_bride_groom_cover.jpg",
+      "asideCopy":
+      {
+        "location": "Ritz Carlton",
+        "date": "June 11, 2017",
+        "photog": "Ikonica Images",
+        "photogLink": "https://ikonica.ca/"
+      }
+    },
+    {
+      "name": "Jordana & Michael",
+      "slug": "jordana-michael",
+      "cover": "./images/jordana_michael/Jordana_Mike_Cover.jpg",
+      "asideCopy":
+      {
+        "location": "Ritz Carlton",
+        "date": "December 1, 2018",
+        "photog": "Danielle Perelman Photography",
+        "photogLink": "http://www.daniellephotography.ca/"
+      }
+    },
+    {
+      "name": "Sara & Frank",
+      "slug": "sara-frank",
+      "cover": "./images/sara_frank/Sara_Frank_cover_crop.jpg",
+      "asideCopy":
+      {
+        "location": "1 King St W",
+        "date": "November 4, 2018",
+        "photog": "Danielle Perelman Photography",
+        "photogLink": "http://www.daniellephotography.ca/"
+      }
+    },
+    {
+      "name": "Stephanie & Johnny",
+      "slug": "stephanie-johnny",
+      "cover": "./images/stephanie_johnny/Stephanie_Johnny_Bouquet.jpg",
+      "asideCopy":
+      {
+        "location": "Arlington",
+        "date": "April 21, 2018",
+        "photog": "Elizabeth In Love Photography",
+        "photogLink": "www.elizabethinlove.com"
+      }
+    },
+    {
+      "name": "Rikki & Eli",
+      "slug": "rikki-eli",
+      "cover": "./images/rikki_eli/rikki_eli_cover.jpg",
+      "asideCopy":
+      {
+        "location": "Camp Timberlane",
+        "date": "June 2, 2018",
+        "photog": "Laura Rowe Photography",
+        "photogLink": "http://www.laurarowe.ca"
+      }
+    },
+    {
+      "name": "Nora & Harley",
+      "slug": "nora-harley",
+      "cover": "./images/nora_harley/Nora_harley_cover.jpg",
+      "asideCopy":
+      {
+        "location": "Shangri-La",
+        "date": "June 7, 2019",
+        "photog": "Ikonica Images",
+        "photogLink": "https://ikonica.ca/"
+      }
+    },
+    {
+      "name": "Danielle & Zack",
+      "slug": "danielle-zack",
+      "cover": "./images/danielle_zack/danielle_zack_wedding_image.jpg",
+      "asideCopy":
+      {
+        "location": "York Mills Gallery",
+        "date": "August 26, 2018",
+        "photog": "Storey Wilkins Photography",
+        "photogLink": "http://www.storeywilkins.com"
+      }
+    },
+    {
+      "name": "Alexa & Mitchell",
+      "slug": "alexa-mitch",
+      "cover": "./images/alexa_mitch/alexa_mitch_chuppah_cover.jpg",
+      "asideCopy":
+      {
+        "location": "The Westin Prince",
+        "date": "May 12, 2018",
+        "photog": "Purple Tree Photography",
+        "photogLink": "https://www.purpletree.ca"
+      }
+    },
+    {
+      "name": "Chloe & Eric",
+      "slug": "chloe-eric",
+      "cover": "./images/chloe_eric/chloe_eric_cover.jpg",
+      "asideCopy":
+      {
+        "location": "Beth Emeth Synagogue",
+        "date": "November 17, 2018",
+        "photog": "Ikonica Images",
+        "photogLink": "https://ikonica.ca"
+      }
+    },
+    {
+      "name": "Lauren & Nick",
+      "slug": "lauren-nick",
+      "cover": "./images/lauren_nick/lauren_nick_hero.jpg",
+      "asideCopy":
+      {
+        "location": "Thompson Hotel",
+        "date": "October 15, 2017",
+        "photog": "Luminous Weddings",
+        "photogLink": "https://luminousweddings.ca"
+      }
+    },
+    {
+      "name": "Lyla & Billy",
+      "slug": "lyla-billy",
+      "cover": "./images/lyla_billy/lyla_billy_cover.jpg",
+      "asideCopy":
+      {
+        "location": "Shaarei Shomayin Synagogue",
+        "date": "October 22, 2017",
+        "photog": "Luminous Weddings",
+        "photogLink": "https://luminousweddings.ca"
+      }
+    },
+    {
+      "name": "Melissa & Adam",
+      "slug": "melissa-adam",
+      "cover": "./images/melissa_adam/melissa_adam_chuppah_kiss.jpg",
+      "asideCopy":
+      {
+        "location": "Beth Emeth Synagogue",
+        "date": "November 17, 2018",
+        "photog": "Tammy Klein",
+        "photogLink": "https://www.tammyklein.ca"
+      }
+    },
+    {
+      "name": "Bridal Bouquets",
+      "slug": "bouquets",
+      "cover": "./images/stephanie_johnny/Stephanie_Johnny_Bouquet_Wedding.jpg"
+    },
+    {
+      "name": "Centrepieces",
+      "slug": "centrepieces",
+      "cover": "./images/jenny_lucas/jenny_lucas_centerpieces_cover.jpg"
+    },
+    {
+      "name": "Events",
+      "slug": "events",
+      "cover": "./images/bisha/Low_Centrepiece_August_Media_Bisha.jpg"
+    },
+    {
+      "name": "Chuppahs",
+      "slug": "chuppahs",
+      "cover": "./images/jenny_lucas/jenny_lucas_wedding_chuppah.jpg"
+    }
+]

@@ -1,0 +1,8 @@
+.LeftArrow__root {
+  position: absolute;
+  max-height: 50px;
+  height: 100%;
+  left: -30px;
+  top: 50%;
+  transform: translate(-100%, -50%);
+}

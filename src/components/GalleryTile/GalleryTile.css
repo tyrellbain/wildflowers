@@ -1,0 +1,33 @@
+.GalleryTile__link {
+  position: relative;
+  text-decoration: none;
+}
+
+.GalleryTile__overlay {
+  background: rgba(0,0,0,0.75);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.33s ease;
+}
+
+.GalleryTile__link:hover .GalleryTile__overlay {
+  opacity: 1;
+}
+
+.GalleryTile__categoryName {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.GalleryTile__img {
+  display: block;
+  margin: 0;
+}

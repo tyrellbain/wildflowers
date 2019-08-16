@@ -1,0 +1,30 @@
+.Grid__root {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}
+
+.Grid__cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5px 10px;
+  width: 100%;
+}
+
+.Grid__column1 {
+  max-width: calc(100% - 10px);
+}
+
+.Grid__column2 {
+  max-width: calc(50% - 10px);
+}
+
+.Grid__column3 {
+  max-width: calc(33.33% - 10px);
+}
+
+.Grid__column4 {
+  max-width: calc(25% - 10px);
+}

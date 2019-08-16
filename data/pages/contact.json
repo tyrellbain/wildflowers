@@ -1,0 +1,14 @@
+{
+  "title": "Contact",
+  "slug": "contact",
+  "heading": "Contact Wildflowers & Co",
+  "content": "<p>Hello!</p><p>Whether you're planning a large-scale wedding, corporate event or an intimate dinner, we're here to bring your floral vision to life.</p><p>As a full-service florist studio specializing in seasonal floral design, we travel throughout Toronto, the GTA and beyond. Visit us in studio (we're happy to look over mood boards!) for a consultation on how we can deliver flowers that capture your event theme and style.</p><p>We'd love to work with you!</p><p>- Susanne of Wildflowers</p><p>hello@wildflowers.ca</p>",
+  "featureImg": {
+    "src": "../images/stephanie_johnny/Stephanie_Johnny_Bridal_Party.jpg",
+    "alt": "Test"
+  },
+  "meta": {
+    "title": "Contact",
+    "description": "Reach out to us for a quote on the cost of wedding flowers or to ask about floral design services for your next event. We'd love to help!"
+  }
+}

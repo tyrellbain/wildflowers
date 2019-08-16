@@ -1,0 +1,52 @@
+.GalleryLightbox__root {
+  background: rgba(0, 0, 0, 0.75);
+  bottom: 0;
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.GalleryLightbox__container {
+  height: 100%;
+  left: 50%;
+  max-height: 90%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.GalleryLightbox__button {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.GalleryLightbox__close {
+  background: #fff;
+  border: none;
+  left: 100%;
+  min-height: 30px;
+  min-width: 30px;
+  outline: none;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+}
+
+.GalleryLightbox__imgContainer {
+  display: inline-block;
+  height: 100%;
+  left: 50%;
+  max-width: 100%;
+  position: relative;
+  transform: translateX(-50%);
+}
+
+.GalleryLightbox__img {
+  margin: 0;
+  max-height: 100%;
+}
