@@ -1,11 +1,30 @@
 .Footer__root {
-  align-items: center;
-  display: flex;
+  /* align-items: center;
+  display: flex; */
   font-size: 12px;
-  height: 100px;
-  justify-content: center;
+  line-height: 0.75;
+  padding-bottom: 25px;
+  text-align: center;
+  /* height: 100px;
+  justify-content: center; */
 }
 
 .Footer__icon {
+  cursor: pointer;
+  display: inline-block;
+  transition: opacity 0.33s ease-in;
+  width: 25px;
+}
 
+.Footer__icon:hover {
+  opacity: 0.75;
+}
+
+.Footer__icon:first-child {
+  padding-right: 10px;
+}
+
+.Footer__phone {
+  color: #616161;
+  text-decoration: none;
 }

@@ -5,7 +5,7 @@
       "cover": "./images/jenny_lucas/jenny_lucas_cover.jpg",
       "asideCopy":
       {
-        "location": "York Mills Gallery",
+        "location": "Magna Golf Club",
         "date": "September 14, 2018",
         "photog": "Mango Studios",
         "photogLink": "https://mangostudios.com/"
@@ -37,15 +37,15 @@
       }
     },
     {
-      "name": "Sara & Frank",
-      "slug": "sara-frank",
-      "cover": "./images/sara_frank/Sara_Frank_cover_crop.jpg",
+      "name": "Jonny & Jon",
+      "slug": "jonny-jon",
+      "cover": "./images/jonny_jon/jonny_jon_hero.jpg",
       "asideCopy":
       {
-        "location": "1 King St W",
-        "date": "November 4, 2018",
-        "photog": "Danielle Perelman Photography",
-        "photogLink": "http://www.daniellephotography.ca/"
+        "location": "JW Marriott The Rosseau Muskoka",
+        "date": "September 15, 2018",
+        "photog": "Rebecca Paladina Pepper and Light",
+        "photogLink": "http://www.pepperandlight.com"
       }
     },
     {
@@ -154,6 +154,18 @@
         "date": "November 17, 2018",
         "photog": "Tammy Klein",
         "photogLink": "https://www.tammyklein.ca"
+      }
+    },
+    {
+      "name": "Ashley & Jordan",
+      "slug": "ashley-jordan",
+      "cover": "./images/ashley_jordan/ashley_jordan_aisle.jpg",
+      "asideCopy":
+      {
+        "location": "Beth Emeth Synagogue",
+        "date": "March 24, 2019",
+        "photog": "Tara McMullen Photography",
+        "photogLink": "https://taramcmullen.com"
       }
     },
     {

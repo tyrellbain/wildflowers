@@ -1,3 +1,13 @@
 .Chuppahs__image {
   height: 100%;
 }
+
+.Chuppahs__right {
+  padding: 0 30px;
+}
+
+.Chuppahs__contact {
+  color: #146f2e;
+  font-weight: 400;
+  text-decoration: none;
+}

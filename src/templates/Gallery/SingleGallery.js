@@ -33,27 +33,30 @@ export const query = graphql`
 
 // used to render out and individual gallery based on tags slug
 class SingleGallery extends React.PureComponent {
-  imgCount = this.props.data.allGalleryJson.edges.length;
-  state = {
-    activeIndex: 0,
-    activeImg: {
-      src: '',
-      alt: '',
-    },
-    lightboxIsOpen: false,
-  };
+
+  constructor(props) {
+    super(props);
+    this.imgCount = this.props.data.allGalleryJson.edges.length;
+    this.state = {
+      activeIndex: 0,
+      activeImg: {
+        src: '',
+        alt: '',
+      },
+      lightboxIsOpen: false,
+    };
+  }
 
   _thumbnailClick(event, index, src, alt) {
     event.preventDefault();
     this.setState({
       lightboxIsOpen: true,
-      activeIndex: index,
+      activeIndex: 10,
       activeImg: {
         src: src,
         alt: alt
       }
     });
-    console.log(this.state);
   };
 
   _closeLightbox = () => {

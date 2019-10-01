@@ -4,7 +4,7 @@ import SEO from '../../components/SEO/SEO';
 import Grid from '../../components/Grid/Grid';
 import Img from "gatsby-image";
 
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import './Chuppahs.css';
 
 export const query = graphql`
@@ -16,7 +16,7 @@ export const query = graphql`
         alt
         src {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fixed(width: 1000, quality: 100) {
             src
           }
         }
@@ -37,13 +37,14 @@ const Chuppahs = ({ data }) => {
         <Grid columns={2}>
             <Img
               className="Chuppahs__image"
-              fluid={featureImg.src.childImageSharp.fluid}
+              fixed={featureImg.src.childImageSharp.fixed}
               alt={featureImg.alt}
             />
-          <>
+          <div className="Chuppahs__right">
             <h2>{heading}</h2>
             <div dangerouslySetInnerHTML={{__html: content}} />
-          </>
+            <div><p><Link class='Chuppahs__contact' to='/contact'>Contact us</Link> for a quote.</p><p>Mazel Tov!</p></div>
+          </div>
         </Grid>
     </Layout>
   )

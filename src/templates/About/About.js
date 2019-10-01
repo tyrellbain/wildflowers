@@ -40,13 +40,13 @@ const About = ({ data }) => {
               fluid={featureImg.src.childImageSharp.fluid}
               alt={featureImg.alt}
             />
-          <>
+          <div className="About__right">
             <h1>{heading}</h1>
             <div dangerouslySetInnerHTML={{__html: content}} />
-          </>
+          </div>
         </Grid>
     </Layout>
   )
 }
 
-export default About
+export default About;

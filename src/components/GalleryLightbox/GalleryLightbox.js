@@ -8,34 +8,43 @@ import './GalleryLightbox.css';
 
 // used to render out a container for the gallery page tiles
 class GalleryLightbox extends React.PureComponent {
+  componentDidMount() {
+    document.addEventListener("keydown", this._keyPress);
+  }
+
   _closeOnClick(event) {
     event.preventDefault();
     this.props.closeLightbox();
   }
 
   _handleArrowClick(dir) {
-    console.log(dir);
     this.props.goToSlide(dir);
   }
 
+  _keyPress = (event) => {
+    if(event.keyCode === 27) this.props.closeLightbox();
+    if(event.keyCode === 39) this.props.goToSlide(1);
+    if(event.keyCode === 37) this.props.goToSlide(-1);
+  }
+
   render() {
-  const {activeImg, isOpen, imageCount, activeIndex} = this.props;
-  if(isOpen){
-  return (
-    <div className="GalleryLightbox__root">
-      <div className="GalleryLightbox__container">
-        <div className="GalleryLightbox__imgContainer">
-          <button className="GalleryLightbox__close GalleryLightbox__button" onClick={e => this._closeOnClick(e)}><Close /></button>
-          <button className="GalleryLightbox__button" onClick={() => this._handleArrowClick(-1)}><LeftArrow /></button>
-          <img className="GalleryLightbox__img" src={activeImg.src} alt={activeImg.alt} />
-          <button className="GalleryLightbox__button" onClick={() => this._handleArrowClick(1)}><RightArrow /></button>
+    const {activeImg, isOpen, imageCount, activeIndex} = this.props;
+    if(isOpen){
+    return (
+      <div className="GalleryLightbox__root" >
+        <div className="GalleryLightbox__container">
+          <div className="GalleryLightbox__imgContainer">
+            <button className="GalleryLightbox__close GalleryLightbox__button" onClick={e => this._closeOnClick(e)}><Close /></button>
+            <button className="GalleryLightbox__button" onClick={() => this._handleArrowClick(-1)}><LeftArrow /></button>
+            <img className="GalleryLightbox__img" src={activeImg.src} alt={activeImg.alt} />
+            <button className="GalleryLightbox__button" onClick={() => this._handleArrowClick(1)}><RightArrow /></button>
+          </div>
         </div>
       </div>
-    </div>
-  )
-}
-return null;
-}
+    )
+  }
+  return null;
+  }
 }
 
 GalleryLightbox.propTypes = {

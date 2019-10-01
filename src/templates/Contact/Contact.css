@@ -1,3 +1,71 @@
 .Contact__image {
   height: 100%;
 }
+
+.Contact__content {
+  margin-bottom: 40px;
+}
+
+.Contact__formgroup {
+  padding-bottom: 15px;
+}
+
+.Contact__label,
+.Contact__input,
+.Contact__textarea {
+  display: block;
+  width: 100%;
+}
+
+.Contact__label {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.Contact__input {
+  box-sizing: border-box;
+  font-size: 14px;
+  height: 35px;
+}
+
+.Contact__textarea {
+  box-sizing: border-box;
+  font-size: 14px;
+  height: 120px;
+  resize: none;
+}
+
+.Contact__submit {
+  background-color: #146f2e;
+  border: 2px solid transparent;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  margin: 0 auto;
+  transition: all 0.33s ease-in;
+  width: 120px;
+}
+
+.Contact__submit:hover {
+  background-color: transparent;
+  border-color: #146f2e;
+  color: #146f2e;
+}
+
+@media (min-width: 1000px) {
+  .Contact__right {
+    box-sizing: border-box;
+    padding: 0 30px;
+  }
+
+  .Contact__form {
+    max-width: 500px;
+  }
+
+  .Contact__submit {
+    margin: 0;
+  }
+}

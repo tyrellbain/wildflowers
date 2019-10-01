@@ -10,11 +10,11 @@ import "./layout.css";
 
 const Layout = ({ children, bodyLock }) => {
   return (
-      <div className={classnames({"Layout__root": true, "Layout__lock": bodyLock})}>
-        <Navigation />
-        <main className="Layout__container" role="main">{children}</main>
-        <Footer />
-      </div>
+    <div className={classnames({"Layout__root": true, "Layout__lock": bodyLock})}>
+      <Navigation />
+      <main className="Layout__container" role="main">{children}</main>
+      <Footer />
+    </div>
   )
 };
 

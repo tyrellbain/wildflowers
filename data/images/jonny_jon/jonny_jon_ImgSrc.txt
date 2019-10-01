@@ -1,0 +1,158 @@
+Jonny & Jon
+JW Marriott The Rosseau Muskoka
+September 15, 2018
+
+Photographer
+Rebecca Paladina Pepper and Light
+http://www.pepperandlight.com
+
+{	
+"imgSrc": "./images/jonny_jon/jonny_jon_hero.jpg",
+	"imgAlt": “Grooms holding hands“,
+	"tags": [“jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_portrait.jpg",
+	"imgAlt": “Portrait of grooms”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_ceremony.jpg",
+	"imgAlt": “Wedding Ceremony at The Rousseau Muskoka”,
+	"tags": [“chuppahs”,”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_forest.jpg",
+	"imgAlt": “Portrait of grooms walking along lake”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_family.jpg",
+	"imgAlt": “Grooms posing with family”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_suits.jpg",
+	"imgAlt": “Close up of grooms wearing white suits”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_rings.jpg",
+	"imgAlt": “Wedding invites and ring details”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_invites.jpg",
+	"imgAlt": “Wedding invites with a forest theme”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_prep.jpg",
+	"imgAlt": “Grooms getting ready for wedding ceremony”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_ceremony_crowd.jpg",
+	"imgAlt": “Guests seated at outdoor wedding ceremony at The Rousseau Muskoka”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_tote_bag.jpg",
+	"imgAlt": “Personalized tote bag at wedding”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_centrepiece.jpg",
+	"imgAlt": “Centrepiece on table at wedding”,
+	"tags": [“centrepieces”,”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_centrepiece_closeup.jpg",
+	"imgAlt": “Closeup of beautiful wedding centrepiece”,
+	"tags": [“centrepieces”,”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_candles.jpg",
+	"imgAlt": “Portrait of grooms”,
+	"tags": [“centrepieces”,”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_cake_topper.jpg",
+	"imgAlt": “Cake topper of two grooms”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_bar.jpg",
+	"imgAlt": “Wedding bar with illustration of grooms”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_dancing.jpg",
+	"imgAlt": “Grooms on dance floor”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_drag_performance.jpg",
+	"imgAlt": “Drag performance at wedding”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_drag.jpg",
+	"imgAlt": “Drag queen at wedding reception”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_reception_drag.jpg",
+	"imgAlt": “Drag queen show at wedding”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_reception_room.jpg",
+	"imgAlt": “Table settings at wedding reception at The Rousseau”,
+	"tags": [“centrepieces”,”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_tablescape.jpg",
+	"imgAlt": “Shot of table at wedding reception”,
+	"tags": [“centrepieces”,”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_wedding_cake.jpg",
+	"imgAlt": “Wedding cake with topper”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_wedding_dinner.jpg",
+	"imgAlt": “Dinner setting at wedding reception”,
+	"tags": [“centrepieces”,”jonny-jon”],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_wedding_reception.jpg",
+	"imgAlt": “Wide shot of tables at wedding reception”,
+	"tags": [”jonny-jon”],
+	"caption": "Test Caption 1"
+},

@@ -636,102 +636,6 @@
     "caption": "Test Caption 1"
   },
   {
-    "imgSrc": "./images/sara_frank/Sara_Frank_Bouquet_Detail.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["bouquets", "sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_bouquet.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["bouquets", "sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_Bridal_Bouquet.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["bouquets", "sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_Bridesmaids_Detail.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_bridesmaids.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_Candy_Table_Flowers.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_Centrepiece.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["centrepieces", "sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_Chuppah_Ceremony.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["chuppahs", "sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_Chuppah.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["chuppahs", "sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_couple.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_cover.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_hero.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_Reception_Flowers.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_table_flowers.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_table.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/sara_frank/Sara_Frank_Wedding_Centrepiece.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["centrepieces", "sara-frank"],
-    "caption": "Test Caption 1"
-  },
-  {
     "imgSrc": "./images/stephanie_johnny/Stephanie_Bouquet.jpg",
     "imgAlt": "Test Alt 1",
     "tags": ["bouquets", "stephanie-johnny"],
@@ -1408,5 +1312,341 @@
     "imgAlt": "Test Alt 1",
     "tags": ["events"],
     "caption": "Test Caption 1"
-  }
+  },
+  {
+"imgSrc": "./images/ashley_jordan/ashley_jordan_bridal_bouqets.jpg",
+	"imgAlt": "Bride and Maid of Honour with Lily Bouquets",
+	"tags": ["bouquets", "ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_bridesmaid_bouquets.jpg",
+	"imgAlt": "Close-ups of calla lily bridesmaid bouquets",
+	"tags": ["bouquets","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_bridal_party.jpg",
+	"imgAlt": "Ashley and Jordan’s bridal party portrait",
+	"tags": ["ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_ceremony.jpg",
+	"imgAlt": "Bride and Groom at Ceremony",
+	"tags": ["ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_aisle.jpg",
+	"imgAlt": "Ashley and Jordan walking down the aisle",
+	"tags": ["ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_bride_bouquet_closeup.jpg",
+	"imgAlt": "Close up of bridal bouquet made of white calla lilies",
+	"tags": ["bouquets","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_bride_bouquet_detail.jpg",
+	"imgAlt": "Bridal bouquet with hardware detail",
+	"tags": ["bouquets","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_bride_father_bouquets.jpg",
+	"imgAlt": "Bride and Father embracing",
+	"tags": ["ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_bride_groom_reception.jpg",
+	"imgAlt": "Bride and groom at wedding reception dinner",
+	"tags": ["ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_calla_lilies_centrepiece.jpg",
+	"imgAlt": "Calla Lily centrepieces at wedding",
+	"tags": ["centrepieces","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_calla_lilies_centrepiece.jpg",
+	"imgAlt": "Calla Lily centrepieces at wedding",
+	"tags": ["centrepieces","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_calla_lillies_bouquets.jpg",
+	"imgAlt": "Bride with MOH and bridesmaids",
+	"tags": ["bouquets","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_calla_lillies.jpg",
+	"imgAlt": "White Calla Lily centrepieces on table",
+	"tags": ["centrepieces","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_candles.jpg",
+	"imgAlt": "Calla Lilies surrounded by candles",
+	"tags": ["centrepieces","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_celebration_chuppah.jpg",
+	"imgAlt": "Chuppah of white roses",
+	"tags": ["chuppahs","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_centrepiece_close.jpg",
+	"imgAlt": "White roses, orchids and lilies centrepiece ",
+	"tags": ["centrepieces","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_centrepiece.jpg",
+	"imgAlt": "Wedding centrepiece and white chairs",
+	"tags": ["centrepieces","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_ceremony.jpg",
+	"imgAlt": "Married couple under chuppah",
+	"tags": ["chuppahs","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_chuppah_above.jpg",
+	"imgAlt": "View of chuppah from above",
+	"tags": ["chuppahs","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_chuppah_back_facing.jpg",
+	"imgAlt": "Couple being married under chuppah of white flowers",
+	"tags": ["chuppahs","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_chuppah_detail.jpg",
+	"imgAlt": "Chuppah detail",
+	"tags": ["chuppahs","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_chuppah_facing.jpg",
+	"imgAlt": "Bride and groom facing each other under chuppah",
+	"tags": ["chuppahs","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_chuppah_facing.jpg",
+	"imgAlt": "Bride and groom facing each other under chuppah",
+	"tags": ["chuppahs","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_chuppah.jpg",
+	"imgAlt": "Beautiful wedding chuppah",
+	"tags": ["chuppahs","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_dancing.jpg",
+	"imgAlt": "Bride and groom dancing",
+	"tags": ["ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_kiss.jpg",
+	"imgAlt": "Bride and groom kissing under chuppah",
+	"tags": ["chuppahs","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_orchids.jpg",
+	"imgAlt": "White Orchids at Wedding Reception",
+	"tags": ["centrepieces","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_reception.jpg",
+	"imgAlt": "Long rectangular tables at wedding reception",
+	"tags": ["centrepieces","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_reveal_portrait.jpg",
+	"imgAlt": "First reveal photo before wedding",
+	"tags": ["ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_reception.jpg",
+	"imgAlt": "Long rectangular tables at wedding reception",
+	"tags": ["centrepieces","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_runner.jpg",
+	"imgAlt": "Dinner table runner with candles",
+	"tags": ["centrepieces","ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/ashley_jordan/ashley_jordan_stage_flowers.jpg",
+	"imgAlt": "Flowers decorating a wedding stage",
+	"tags": ["ashley-jordan"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_hero.jpg",
+	"imgAlt": "Grooms holding hands",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_portrait.jpg",
+	"imgAlt": "Portrait of grooms",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_ceremony.jpg",
+	"imgAlt": "Wedding Ceremony at The Rousseau Muskoka",
+	"tags": ["chuppahs","jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_forest.jpg",
+	"imgAlt": "Portrait of grooms walking along lake",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_family.jpg",
+	"imgAlt": "Grooms posing with family",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_suits.jpg",
+	"imgAlt": "Close up of grooms wearing white suits",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_invites.jpg",
+	"imgAlt": "Wedding invites with a forest theme",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_prep.jpg",
+	"imgAlt": "Grooms getting ready for wedding ceremony",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_ceremony_crowd.jpg",
+	"imgAlt": "Guests seated at outdoor wedding ceremony at The Rousseau Muskoka",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_tote_bag.jpg",
+	"imgAlt": "Personalized tote bag at wedding",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_centrepiece.jpg",
+	"imgAlt": "Centrepiece on table at wedding",
+	"tags": ["centrepieces","jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_centrepiece_closeup.jpg",
+	"imgAlt": "Closeup of beautiful wedding centrepiece",
+	"tags": ["centrepieces","jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_candles.jpg",
+	"imgAlt": "Portrait of grooms",
+	"tags": ["centrepieces","jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_cake_topper.jpg",
+	"imgAlt": "Cake topper of two grooms",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_bar.jpg",
+	"imgAlt": "Wedding bar with illustration of grooms",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_dancing.jpg",
+	"imgAlt": "Grooms on dance floor",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_drag_performance.jpg",
+	"imgAlt": "Drag performance at wedding",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_drag.jpg",
+	"imgAlt": "Drag queen at wedding reception",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_reception_drag.jpg",
+	"imgAlt": "Drag queen show at wedding",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_reception_room.jpg",
+	"imgAlt": "Table settings at wedding reception at The Rousseau",
+	"tags": ["centrepieces","jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_tablescape.jpg",
+	"imgAlt": "Shot of table at wedding reception",
+	"tags": ["centrepieces","jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_wedding_cake.jpg",
+	"imgAlt": "Wedding cake with topper",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_wedding_dinner.jpg",
+	"imgAlt": "Dinner setting at wedding reception",
+	"tags": ["centrepieces","jonny-jon"],
+	"caption": "Test Caption 1"
+},
+{
+"imgSrc": "./images/jonny_jon/jonny_jon_wedding_reception.jpg",
+	"imgAlt": "Wide shot of tables at wedding reception",
+	"tags": ["jonny-jon"],
+	"caption": "Test Caption 1"
+}
 ]

@@ -61,19 +61,19 @@ class Contact extends React.PureComponent {
     return (
       <Layout>
         <SEO title={meta.title} description={meta.description} />
-        <Grid columns={2}>
+        <Grid columns={2} stackAt={"tablet"}>
             <Img
               className="Contact__image"
               fluid={featureImg.src.childImageSharp.fluid}
               alt={featureImg.alt}
             />
-          <div>
+          <div className="Contact__right">
             <h1>{heading}</h1>
-            <div dangerouslySetInnerHTML={{__html: content}} />
-            <form>
+            <div className="Contact__content" dangerouslySetInnerHTML={{__html: content}} />
+            <form className="Contact__form" id="contact_form">
               <div className="Contact__formgroup">
-                <label htmlFor="name">Name</label>
-                <input
+                <label className="Contact__label" htmlFor="name">Name</label>
+                <input className="Contact__input"
                   type="text"
                   name="name"
                   placeholder="Name"
@@ -83,8 +83,8 @@ class Contact extends React.PureComponent {
                 />
               </div>
               <div className="Contact__formgroup">
-                <label htmlFor="email">Email</label>
-                <input
+                <label className="Contact__label" htmlFor="email">Email</label>
+                <input className="Contact__input"
                   type="email"
                   name="email"
                   placeholder="Email"
@@ -94,8 +94,8 @@ class Contact extends React.PureComponent {
                 />
               </div>
               <div className="Contact__formgroup">
-                <label htmlFor="occasion">Occasion</label>
-                <input
+                <label className="Contact__label" htmlFor="occasion">Occasion</label>
+                <input className="Contact__input"
                   type="text"
                   name="occasion"
                   placeholder="Occasion"
@@ -104,8 +104,8 @@ class Contact extends React.PureComponent {
                 />
               </div>
               <div className="Contact__formgroup">
-                <label htmlFor="phone">Phone Number</label>
-                <input
+                <label className="Contact__label" htmlFor="phone">Phone Number</label>
+                <input className="Contact__input"
                   type="tel"
                   name="phoneNumber"
                   placeholder="Phone Number"
@@ -114,8 +114,9 @@ class Contact extends React.PureComponent {
                 />
               </div>
               <div className="Contact__formgroup">
-                <label htmlFor="message">Message</label>
+                <label className="Contact__label" htmlFor="message">Message</label>
                 <textarea
+                  className="Contact__textarea"
                   id="message"
                   name="message"
                   placeholder="Your Message"
@@ -124,7 +125,10 @@ class Contact extends React.PureComponent {
                   >
               </textarea>
               </div>
-              <input type="submit" onClick={e => this._handleFormSubmit(e)} value="Submit" />
+              <button
+                className="Contact__submit"
+                type="submit"
+                onClick={e => this._handleFormSubmit(e)}>Submit</button>
             </form>
           </div>
         </Grid>
