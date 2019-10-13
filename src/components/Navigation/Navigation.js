@@ -1,66 +1,22 @@
 import React from 'react';
+import DesktopNavigation from './DesktopNavigation';
+import MobileNavigation from './MobileNavigation';
+import {breakpoints} from '../../utils/breakpoint';
+import {getBreakpoint} from '../../utils/breakpoint';
 
-import { Link, useStaticQuery, graphql } from 'gatsby';
 
-import './Navigation.css';
-
-
-const Navigation = () => {
-  const data = useStaticQuery(graphql`
-    query SiteLinkQuery {
-      allNavigationJson {
-        edges {
-          node {
-            items {
-              name
-              slug
-            }
-            logo {
-              imgAlt
-              imgSrc {
-                childImageSharp {
-                  sizes {
-                    originalImg
-                  }
-                }
-              }
-            }
-          }
+class Navigation extends React.PureComponent {
+    state = {};
+    constructor(state) {
+        super();
+        state = {
+            breakpoint: breakpoints.MOBILE,
         }
-      }
     }
-  `);
 
-  const {items, logo} = data.allNavigationJson.edges[0].node;
-
-  return (
-    <div className="Navigation__root">
-      <div className="Navigation__container">
-        <div className="Navigation__logo-container">
-            <img
-              className="Navigation__logo"
-              src={logo.imgSrc.childImageSharp.sizes.originalImg}
-              alt={logo.imgAlt}
-            />
-        </div>
-      <nav className="Navigation__links-container">
-        <ul className="Navigation__links">
-          {items.map(navItem =>(
-              <li className="Navigation__link" key={`nav${navItem.name}`}>
-                <Link
-                  className="Navigation__link-anchor"
-                  activeClassName="Navigation__active"
-                  partiallyActive={true}
-                  to={navItem.slug}>
-                  {navItem.name}
-                </Link>
-              </li>
-            ))}
-        </ul>
-      </nav>
-    </div>
-  </div>
-  );
+    render() {
+        return this.state.breakpoint === breakpoints.DESKTOP ? <DesktopNavigation /> : <MobileNavigation />;
+    }
 }
 
 
