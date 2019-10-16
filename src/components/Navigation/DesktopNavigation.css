@@ -41,6 +41,14 @@
   height: 100%;
   justify-content: center;
   padding: 10px;
+  position: relative;
+}
+
+.Navigation__hasSubNavigation::after {
+  align-self: center;
+  content: "+";
+  display: flex;
+  padding-left: 10px;
 }
 
 .Navigation__link-anchor {
@@ -53,8 +61,6 @@
   transition: all 0.33s ease-in;
 }
 
-.Navigation__link:hover .Navigation__link-anchor,
-.Navigation__link-anchor:hover,
 .Navigation__active {
   color: #146f2e;
 }
@@ -69,8 +75,43 @@
   width: 0;
 }
 
-.Navigation__link:hover .Navigation__link-anchor::after,
-.Navigation__link-anchor:hover::after,
 .Navigation__active::after {
   width: 100%;
+}
+
+.Subnavigation__root {
+  display: none;
+  left: 0;
+  list-style: none;
+  margin: 0 10px;
+  position: absolute;
+  right: 0;
+  top: 100%;
+}
+
+.Subnavigation__link-anchor {
+  display: block;
+}
+
+@media (min-width: 1000px) {
+  .Navigation__hasSubNavigation:hover .Subnavigation__root,
+  .Subnavigation__root:hover {
+    display: block;
+  }
+  
+  .Navigation__link:hover .Navigation__link-anchor,
+  .Navigation__link-anchor:hover,
+  .Navigation__active {
+    color: #146f2e;
+  }
+
+  .Navigation__link:hover .Navigation__link-anchor,
+  .Navigation__link-anchor:hover {
+  color: #146f2e;
+  }
+
+  .Navigation__link:hover .Navigation__link-anchor::after,
+  .Navigation__link-anchor:hover::after {
+  width: 100%;
+  }
 }

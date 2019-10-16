@@ -7,14 +7,25 @@ import {getBreakpoint} from '../../utils/breakpoint';
 
 class Navigation extends React.PureComponent {
     state = {};
-    constructor(state) {
+    constructor() {
         super();
-        state = {
-            breakpoint: breakpoints.MOBILE,
-        }
+        this.state = {breakpoint: getBreakpoint(window.outerWidth)};
+    }
+
+    componentDidMount() {
+        window.addEventListener('resize', e => this._updateBreakpoint(e));
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', e => this._updateBreakpoint(e));
+    }
+
+    _updateBreakpoint = (e) => {
+        this.setState({breakpoint: getBreakpoint(e.currentTarget.outerWidth)});
     }
 
     render() {
+        console.log(this.state.breakpoint);
         return this.state.breakpoint === breakpoints.DESKTOP ? <DesktopNavigation /> : <MobileNavigation />;
     }
 }

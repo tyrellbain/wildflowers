@@ -4,11 +4,10 @@ export const breakpoints = {
     DESKTOP: 'desktop',
 }
 
-export function getBreakpoint(e) {
-    const windowWidth = e.currentTarget.outerWidth;
-    if(windowWidth <= 768 ) {
+export function getBreakpoint(width) {
+    if(width <= 768 ) {
         return breakpoints.MOBILE;
-    } else if(windowWidth <= 1000){
+    } else if(width <= 1000){
         return breakpoints.TABLET;
     } else {
         return breakpoints.DESKTOP;

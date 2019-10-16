@@ -14,6 +14,10 @@ const DesktopNavigation = () => {
             items {
               name
               slug
+              children {
+                name
+                slug
+              }
             }
             logo {
               imgAlt
@@ -46,7 +50,7 @@ const DesktopNavigation = () => {
       <nav className="Navigation__links-container">
         <ul className="Navigation__links">
           {items.map(navItem =>(
-              <li className="Navigation__link" key={`nav${navItem.name}`}>
+              <li className={navItem.children !== null ? "Navigation__link Navigation__hasSubNavigation" : "Navigation__link"} key={`nav${navItem.name}`}>
                 <Link
                   className="Navigation__link-anchor"
                   activeClassName="Navigation__active"
@@ -54,6 +58,20 @@ const DesktopNavigation = () => {
                   to={navItem.slug}>
                   {navItem.name}
                 </Link>
+                {navItem.children !== null ? 
+                  <ul className="Subnavigation__root">
+                    {navItem.children.map(child => (
+                      <li className="Subavigation__link">
+                        <Link 
+                          className="Subnavigation__link-anchor" 
+                          activeClassName="Subnavigation__active" 
+                          partiallyActive={true}
+                          to={navItem.slug + child.slug}>
+                          {child.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul> : null} 
               </li>
             ))}
         </ul>
