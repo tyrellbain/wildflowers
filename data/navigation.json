@@ -7,7 +7,14 @@
   "items":
     [
       {"name": "ABOUT", "slug": "about"},
-      {"name": "WEDDING GALLERIES", "slug": "gallery", "children": [{"name": "CHUPPAH", "slug": "#chuppah"}]},
+      {"name": "WEDDING GALLERIES", "slug": "gallery", 
+        "children": [
+          {"name": "FEATURED", "slug": ""}, 
+          {"name": "CHUPPAHS", "slug": "chuppahs"}, 
+          {"name": "EVENTS", "slug": "events"}, 
+          {"name": "BOUQUETS", "slug": "bouquets"}, 
+          {"name": "CENTREPIECES", "slug": "centrepieces"}]
+      },
       {"name": "CHUPPAHS", "slug": "chuppahs"},
       {"name": "CONTACT", "slug": "contact"}
     ]
