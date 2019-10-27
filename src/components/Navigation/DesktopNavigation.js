@@ -2,8 +2,6 @@ import React from "react"
 
 import { Link, useStaticQuery, graphql } from "gatsby"
 
-import "./DesktopNavigation.css"
-
 const DesktopNavigation = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -73,7 +71,7 @@ const DesktopNavigation = () => {
                 {navItem.children !== null ? (
                   <ul className="Subnavigation__root">
                     {navItem.children.map(child => (
-                      <li className="Subavigation__link">
+                      <li className="Subnavigation__link">
                         <Link
                           className="Subnavigation__link-anchor"
                           activeClassName="Subnavigation__active"

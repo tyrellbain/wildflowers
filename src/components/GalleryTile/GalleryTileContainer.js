@@ -1,8 +1,8 @@
-import React from 'react';
-import GalleryTile from './GalleryTile';
-import Grid from '../Grid/Grid';
+import React from "react"
+import GalleryTile from "./GalleryTile"
+import Grid from "../Grid/Grid"
 
-import { graphql, useStaticQuery, Link } from "gatsby";
+import { graphql, useStaticQuery, Link } from "gatsby"
 
 // used to render out a container for the gallery page tiles
 const GalleryTileContainer = () => {
@@ -27,12 +27,13 @@ const GalleryTileContainer = () => {
   `)
 
   return (
-    <Grid columns={3}>
+    <Grid mobileColumns={2} tabletColumns={2} desktopColumns={3}>
       {data.allTagsJson.edges.map(tag => (
         <Link
           key={tag.node.slug}
-          className="GalleryTile__link" to={`/gallery/${tag.node.slug}`}
-          >
+          className="GalleryTile__link"
+          to={`/gallery/${tag.node.slug}`}
+        >
           <GalleryTile
             slug={tag.node.slug}
             title={tag.node.name}
@@ -46,4 +47,4 @@ const GalleryTileContainer = () => {
   )
 }
 
-export default GalleryTileContainer;
+export default GalleryTileContainer

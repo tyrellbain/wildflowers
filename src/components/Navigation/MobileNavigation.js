@@ -37,8 +37,7 @@ const MobileNavigation = () => {
 
   const { items, logo } = data.allNavigationJson.edges[0].node
   const [isOpen, setIsOpen] = useState(false)
-  const [openSubNav, setOpenSubNav] = useState(null)
-  console.log(openSubNav)
+  const [openSubNav, setOpenSubNav] = useState(false)
   return (
     <React.Fragment>
       <div className="Navigation__root">
@@ -97,7 +96,7 @@ const MobileNavigation = () => {
                 {navItem.children !== null ? (
                   <ul className="Subnavigation__root">
                     {navItem.children.map(child => (
-                      <li className="Subavigation__link">
+                      <li className="Subnavigation__link">
                         <Link
                           className="Subnavigation__link-anchor"
                           activeClassName="Subnavigation__active"

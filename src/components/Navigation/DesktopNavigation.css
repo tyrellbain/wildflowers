@@ -58,7 +58,8 @@
 .Navigation__link-anchor {
   align-items: center;
   display: flex;
-  padding: 0 5px;
+  justify-content: center;
+  padding: 10px 5px;
   position: relative;
 }
 
@@ -74,13 +75,19 @@
 }
 
 .Subnavigation__root {
+  cursor: default;
   display: none;
   list-style: none;
-  padding: 20px;
+  padding: 10px;
+  text-align: center;
 }
 
 .Navigation__hasSubNavigation.Navigation__subNavOpen .Subnavigation__root {
   display: block;
+}
+
+.Subnavigation__link {
+  padding: 5px 0;
 }
 
 .Navigation__link:hover .Navigation__link-anchor,
@@ -121,6 +128,10 @@
     position: relative;
   }
 
+  .Navigation__link-anchor {
+    padding: 0 5px;
+  }
+
   .Navigation__link-anchor::before {
     background-color: #146f2e;
     bottom: 0;
@@ -138,11 +149,14 @@
 
   .Subnavigation__root {
     background: #f7f7f7;
-    left: 0;
+    padding: 20px;
     position: absolute;
-    right: 0;
     top: 100%;
     z-index: 1000;
+  }
+
+  .Subnavigation__link {
+    padding: 0;
   }
 
   .Subnavigation__link-anchor {
