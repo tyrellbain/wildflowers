@@ -1,12 +1,12 @@
-import React from 'react';
-import Layout from '../../components/Layout/Layout';
-import SEO from '../../components/SEO/SEO';
-import Grid from '../../components/Grid/Grid';
-import Img from "gatsby-image";
-import axios from 'axios';
+import React from "react"
+import Layout from "../../components/Layout/Layout"
+import SEO from "../../components/SEO/SEO"
+import Grid from "../../components/Grid/Grid"
+import Img from "gatsby-image"
+import axios from "axios"
 
-import { graphql } from "gatsby";
-import './Contact.css';
+import { graphql } from "gatsby"
+import "./Contact.css"
 
 export const query = graphql`
   query($slug: String!) {
@@ -16,11 +16,11 @@ export const query = graphql`
       featureImg {
         alt
         src {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            src
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              src
+            }
           }
-        }
         }
       }
       meta {
@@ -28,9 +28,10 @@ export const query = graphql`
         title
       }
     }
-  }`;
+  }
+`
 
-const API_PATH = 'http://localhost:8888/email.php';
+const API_PATH = "http://localhost:8888/email.php"
 
 // used to render out the gallery page
 class Contact extends React.PureComponent {
@@ -40,40 +41,48 @@ class Contact extends React.PureComponent {
     occasion: "",
     phoneNumber: "",
     message: "",
-  };
+  }
 
   _handleFormSubmit = e => {
-  e.preventDefault();
-  axios({
-    method: 'post',
-    url: `${API_PATH}`,
-    headers: {'content-type': 'application/x-www-form-urlencoded'},
-    data: this.state
-  })
-    .then(result => {
-      console.log(result);
+    e.preventDefault()
+    axios({
+      method: "post",
+      url: `${API_PATH}`,
+      headers: { "content-type": "application/x-www-form-urlencoded" },
+      data: this.state,
     })
-    .catch(error => {console.log(error)});
-  };
+      .then(result => {
+        console.log(result)
+      })
+      .catch(error => {
+        console.log(error)
+      })
+  }
 
   render() {
-    const {heading, content, featureImg, meta} = this.props.data.pagesJson;
+    const { heading, content, featureImg, meta } = this.props.data.pagesJson
     return (
       <Layout>
         <SEO title={meta.title} description={meta.description} />
-        <Grid columns={2} stackAt={"tablet"}>
-            <Img
-              className="Contact__image"
-              fluid={featureImg.src.childImageSharp.fluid}
-              alt={featureImg.alt}
-            />
+        <Grid mobileComlumns={1} tabletColumns={1} desktopColumns={2}>
+          <Img
+            className="Contact__image"
+            fluid={featureImg.src.childImageSharp.fluid}
+            alt={featureImg.alt}
+          />
           <div className="Contact__right">
             <h1>{heading}</h1>
-            <div className="Contact__content" dangerouslySetInnerHTML={{__html: content}} />
+            <div
+              className="Contact__content"
+              dangerouslySetInnerHTML={{ __html: content }}
+            />
             <form className="Contact__form" id="contact_form">
               <div className="Contact__formgroup">
-                <label className="Contact__label" htmlFor="name">Name</label>
-                <input className="Contact__input"
+                <label className="Contact__label" htmlFor="name">
+                  Name
+                </label>
+                <input
+                  className="Contact__input"
                   type="text"
                   name="name"
                   placeholder="Name"
@@ -83,8 +92,11 @@ class Contact extends React.PureComponent {
                 />
               </div>
               <div className="Contact__formgroup">
-                <label className="Contact__label" htmlFor="email">Email</label>
-                <input className="Contact__input"
+                <label className="Contact__label" htmlFor="email">
+                  Email
+                </label>
+                <input
+                  className="Contact__input"
                   type="email"
                   name="email"
                   placeholder="Email"
@@ -94,8 +106,11 @@ class Contact extends React.PureComponent {
                 />
               </div>
               <div className="Contact__formgroup">
-                <label className="Contact__label" htmlFor="occasion">Occasion</label>
-                <input className="Contact__input"
+                <label className="Contact__label" htmlFor="occasion">
+                  Occasion
+                </label>
+                <input
+                  className="Contact__input"
                   type="text"
                   name="occasion"
                   placeholder="Occasion"
@@ -104,8 +119,11 @@ class Contact extends React.PureComponent {
                 />
               </div>
               <div className="Contact__formgroup">
-                <label className="Contact__label" htmlFor="phone">Phone Number</label>
-                <input className="Contact__input"
+                <label className="Contact__label" htmlFor="phone">
+                  Phone Number
+                </label>
+                <input
+                  className="Contact__input"
                   type="tel"
                   name="phoneNumber"
                   placeholder="Phone Number"
@@ -114,7 +132,9 @@ class Contact extends React.PureComponent {
                 />
               </div>
               <div className="Contact__formgroup">
-                <label className="Contact__label" htmlFor="message">Message</label>
+                <label className="Contact__label" htmlFor="message">
+                  Message
+                </label>
                 <textarea
                   className="Contact__textarea"
                   id="message"
@@ -122,18 +142,20 @@ class Contact extends React.PureComponent {
                   placeholder="Your Message"
                   value={this.state.message}
                   onChange={e => this.setState({ message: e.target.value })}
-                  >
-              </textarea>
+                ></textarea>
               </div>
               <button
                 className="Contact__submit"
                 type="submit"
-                onClick={e => this._handleFormSubmit(e)}>Submit</button>
+                onClick={e => this._handleFormSubmit(e)}
+              >
+                Submit
+              </button>
             </form>
           </div>
         </Grid>
       </Layout>
-    );
+    )
   }
 }
 

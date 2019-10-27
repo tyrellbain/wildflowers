@@ -12,41 +12,41 @@
   width: 100%;
 }
 
-.Grid__column1 {
-  max-width: calc(100% - 10px);
-}
-
-.Grid__column2 {
-  max-width: calc(50% - 10px);
-}
-
-.Grid__column3 {
-  max-width: calc(33.33% - 10px);
-}
-
-.Grid__column4 {
-  max-width: calc(25% - 10px);
-}
-
-.Grid__cell__mobile__padding__1 {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.Grid__cell__mobile__padding__2 {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.Grid__cell__mobile__padding__3 {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-@media (max-width: 768px ) {
+@media (max-width: 768px) {
   .Grid__stack_mobile .Grid__cell {
     max-width: 100%;
     width: 100%;
+  }
+
+  .Grid__cell__mobile__padding__1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Grid__cell__mobile__padding__2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .Grid__cell__mobile__padding__3 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .Grid__mobileColumnOne {
+    max-width: calc(100% - 10px);
+  }
+
+  .Grid__mobileColumnTwo {
+    max-width: calc(50% - 10px);
+  }
+
+  .Grid__mobileColumnThree {
+    max-width: calc(33.33% - 10px);
+  }
+
+  .Grid__mobileColumnFour {
+    max-width: calc(25% - 10px);
   }
 }
 
@@ -65,9 +65,25 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  .Grid__tabletColumnOne {
+    max-width: calc(100% - 10px);
+  }
+
+  .Grid__tabletColumnTwo {
+    max-width: calc(50% - 10px);
+  }
+
+  .Grid__tabletColumnThree {
+    max-width: calc(33.33% - 10px);
+  }
+
+  .Grid__tabletColumnFour {
+    max-width: calc(25% - 10px);
+  }
 }
 
-@media (max-width: 1000px ) {
+@media (max-width: 1000px) {
   .Grid__stack_tablet .Grid__cell {
     max-width: 100%;
     width: 100%;
@@ -88,5 +104,21 @@
   .Grid__cell__desktop__padding__3 {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .Grid__desktopColumnOne {
+    max-width: calc(100% - 10px);
+  }
+
+  .Grid__desktopColumnTwo {
+    max-width: calc(50% - 10px);
+  }
+
+  .Grid__desktopColumnThree {
+    max-width: calc(33.33% - 10px);
+  }
+
+  .Grid__desktopColumnFour {
+    max-width: calc(25% - 10px);
   }
 }
