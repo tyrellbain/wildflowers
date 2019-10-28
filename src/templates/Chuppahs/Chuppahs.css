@@ -1,5 +1,6 @@
 .Chuppahs__image {
   height: 100%;
+  min-height: 350px;
 }
 
 .Chuppahs__right {
@@ -10,4 +11,16 @@
   color: #146f2e;
   font-weight: 400;
   text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+  .Chuppahs__image {
+    min-height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .Chuppahs__image {
+    min-height: 450px;
+  }
 }

@@ -1,5 +1,6 @@
 .Contact__image {
   height: 100%;
+  min-height: 350px;
 }
 
 .Contact__content {
@@ -56,6 +57,10 @@
 }
 
 @media (min-width: 1000px) {
+  .Contact__image {
+    min-height: auto;
+  }
+
   .Contact__right {
     box-sizing: border-box;
     padding: 0 30px;
@@ -67,5 +72,11 @@
 
   .Contact__submit {
     margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .Contact__image {
+    min-height: 450px;
   }
 }
