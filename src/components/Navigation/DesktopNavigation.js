@@ -37,13 +37,13 @@ const DesktopNavigation = () => {
   return (
     <div className="Navigation__root">
       <div className="Navigation__container">
-        <div className="Navigation__logo-container">
+        <Link className="Navigation__logo-container" to={"/"}>
           <img
             className="Navigation__logo"
             src={logo.imgSrc.childImageSharp.sizes.originalImg}
             alt={logo.imgAlt}
           />
-        </div>
+        </Link>
         <nav className="Navigation__links-container">
           <ul className="Navigation__links">
             {items.map(navItem => (

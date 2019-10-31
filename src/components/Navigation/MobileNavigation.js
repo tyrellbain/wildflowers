@@ -42,13 +42,13 @@ const MobileNavigation = () => {
     <React.Fragment>
       <div className="Navigation__root">
         <div className="Navigation__container">
-          <div className="Navigation__logo-container">
+          <Link className="Navigation__logo-container" to={"/"}>
             <img
               className="Navigation__logo"
               src={logo.imgSrc.childImageSharp.sizes.originalImg}
               alt={logo.imgAlt}
             />
-          </div>
+          </Link>
           <div className="Navigation__menu">
             <button
               onClick={() => {

@@ -1,5 +1,7 @@
 .Navigation__root {
-  height: 70px;
+  box-sizing: border-box;
+  height: 100px;
+  padding: 10px 0;
   top: 0;
   width: 100%;
 }
@@ -30,13 +32,16 @@
 
 .Navigation__logo {
   margin: 0;
+  width: auto;
+  height: 110%;
+  margin-bottom: -20px;
 }
 
 .Navigation__logo-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  width: 200px;
+  align-items: center;
+  width: 230px;
 }
 
 .Navigation__menu {

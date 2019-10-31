@@ -1,3 +1,20 @@
 .Home__heroImage {
   height: 100%;
 }
+
+.Home__love-letters__heading {
+  text-align: center;
+}
+
+.Home__love-letters__grid {
+  flex-grow: 0;
+}
+
+.Home__love-letters {
+  font-size: 12px;
+}
+
+.Home__love-letters__paragraph {
+  font-style: italic;
+  margin: 0.5em 0;
+}
