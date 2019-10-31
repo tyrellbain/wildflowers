@@ -5,6 +5,7 @@ import classnames from "classnames"
 import "./Grid.css"
 
 const Grid = ({
+  className,
   children,
   mobileColumns,
   tabletColumns,
@@ -16,11 +17,14 @@ const Grid = ({
 }) => {
   return (
     <div
-      className={classnames({
-        Grid__root: true,
-        Grid__stack_mobile: stackAt === "mobile",
-        Grid__stack_tablet: stackAt === "tablet",
-      })}
+      className={classnames(
+        {
+          Grid__root: true,
+          Grid__stack_mobile: stackAt === "mobile",
+          Grid__stack_tablet: stackAt === "tablet",
+        },
+        className
+      )}
     >
       {children.map((child, i) => (
         <div
@@ -58,6 +62,7 @@ const Grid = ({
 }
 
 Grid.propTypes = {
+  className: PropTypes.string,
   children: PropTypes.node.isRequired,
   mobileColumns: PropTypes.oneOf([1, 2, 3, 4]).isRequired,
   tabletColumns: PropTypes.oneOf([1, 2, 3, 4]).isRequired,
