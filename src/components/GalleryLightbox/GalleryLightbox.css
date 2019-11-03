@@ -1,11 +1,12 @@
 .GalleryLightbox__root {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.9);
   bottom: 0;
   display: block;
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 9000;
 }
 
 .GalleryLightbox__container {
@@ -19,34 +20,75 @@
 }
 
 .GalleryLightbox__button {
-  cursor: pointer;
-  padding: 0;
-  margin: 0;
+  background: transparent;
   border: none;
+  cursor: pointer;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  z-index: 9500;
 }
 
 .GalleryLightbox__close {
-  background: #fff;
   border: none;
-  left: 100%;
   min-height: 30px;
   min-width: 30px;
   outline: none;
-  padding: 10px;
+  padding: 5px;
   position: absolute;
+  right: 20px;
   text-align: center;
+  top: 20px;
+}
+
+.GalleryLightbox__left {
+  position: absolute;
+  max-height: 30px;
+  height: 100%;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.GalleryLightbox__right {
+  position: absolute;
+  max-height: 30px;
+  height: 100%;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .GalleryLightbox__imgContainer {
   display: inline-block;
   height: 100%;
   left: 50%;
-  max-width: 100%;
+  max-width: calc(100% - 120px);
   position: relative;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .GalleryLightbox__img {
   margin: 0;
   max-height: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+  .GalleryLightbox__imgContainer {
+    max-width: 100%;
+  }
+
+  .GalleryLightbox__left {
+    max-height: 50px;
+    left: 30px;
+  }
+
+  .GalleryLightbox__right {
+    max-height: 50px;
+    right: 30px;
+  }
 }

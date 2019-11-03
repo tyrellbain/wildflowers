@@ -1,6 +1,7 @@
 import React from "react"
 import DesktopNavigation from "./DesktopNavigation"
 import MobileNavigation from "./MobileNavigation"
+import PropTypes from "prop-types"
 import { breakpoints } from "../../utils/breakpoint"
 import { getBreakpoint } from "../../utils/breakpoint"
 
@@ -29,9 +30,13 @@ class Navigation extends React.PureComponent {
     return this.state.breakpoint === breakpoints.DESKTOP ? (
       <DesktopNavigation />
     ) : (
-      <MobileNavigation />
+      <MobileNavigation onOpen={this.props.onOpen} />
     )
   }
+}
+
+Navigation.propTypes = {
+  onOpen: PropTypes.func.isRequired,
 }
 
 export default Navigation

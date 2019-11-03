@@ -49,6 +49,20 @@ const Home = ({ data }) => {
           />
         ))}
       </Slider>
+      <div className="Home__mission__root">
+        <h3 className="Home__mission__heading">
+          Wildflowers' Mission Statement
+        </h3>
+        <p className="Home__mission__paragraph">
+          Welcome to Wildflowers! We're a full-service florist based in Toronto
+          specializing in wedding flowers and chuppahs for over 20 years. Our
+          mission is to help clients bring their floral vision to life by
+          collaborating and sourcing the best flowers for everything from bridal
+          bouquets, custom chuppahs or bespoke arrangements for any occasion. We
+          aim to tailor our services to each client's needs and budget with our
+          personalized approach to floral design.
+        </p>
+      </div>
       <h3 className="Home__love-letters__heading">Love Letters from Clients</h3>
       <Grid
         className="Home__love-letters__grid"
@@ -96,14 +110,11 @@ const Home = ({ data }) => {
             There are not enough words to properly thank you for what you pulled
             off with our wedding, but I will do my best. Thank you for being so
             kind, generous, and patient with your time as we navigated the
-            wedding planning process and figured out our vision. You always made
-            me feel heard and respected throughout the entire process, and we
-            each felt so comfortable with you from the very first meeting. You
-            are unbelievably skilled and a dream to collaborate with! I have
-            been FLOODED with compliments on all elements of the wedding decor
-            since the moment the bouquets were delivered to the hotel! Every
-            single detail of the flowers, vases, candles, and chuppah was simply
-            perfect. Thank you so much for bringing our vision to life.
+            wedding planning process. You are unbelievably skilled and a dream
+            to collaborate with! I have been FLOODED with compliments on all
+            elements of the wedding decor since the moment the bouquets were
+            delivered to the hotel! Every single detail of the flowers, vases,
+            candles, and chuppah was simply perfect.
           </p>
           <p className="Home__love-letters__paragraph">All the best!</p>
           <small>- Erin</small>

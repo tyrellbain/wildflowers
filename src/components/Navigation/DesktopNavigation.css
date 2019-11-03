@@ -45,12 +45,24 @@
 }
 
 .Navigation__menu {
+  align-self: center;
   position: relative;
   z-index: 1001;
 }
 
+.Navigation__menu-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 20px;
+  margin: 0;
+}
+
 .Navigation__link {
+  border-bottom: 1px solid #6f6f6f;
   list-style: none;
+  width: 250px;
 }
 
 .Navigation__link-anchor,
@@ -124,6 +136,7 @@
   }
 
   .Navigation__link {
+    border: none;
     box-sizing: border-box;
     cursor: pointer;
     display: inline-flex;
@@ -131,6 +144,7 @@
     justify-content: center;
     padding: 0 10px;
     position: relative;
+    width: auto;
   }
 
   .Navigation__link-anchor {

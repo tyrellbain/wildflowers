@@ -1,11 +1,13 @@
 import React, { useState } from "react"
+import Menu from "../../svgs/Menu/Menu"
+import PropTypes from "prop-types"
 import { Link, useStaticQuery, graphql } from "gatsby"
 
 import classnames from "classnames"
 
 import "./MobileNavigation.css"
 
-const MobileNavigation = () => {
+const MobileNavigation = ({ onOpen }) => {
   const data = useStaticQuery(graphql`
     query {
       allNavigationJson {
@@ -42,7 +44,7 @@ const MobileNavigation = () => {
     <React.Fragment>
       <div className="Navigation__root">
         <div className="Navigation__container">
-          <Link className="Navigation__logo-container" to={"/"}>
+          <Link className="Navigation__logo-container" to="/">
             <img
               className="Navigation__logo"
               src={logo.imgSrc.childImageSharp.sizes.originalImg}
@@ -51,11 +53,13 @@ const MobileNavigation = () => {
           </Link>
           <div className="Navigation__menu">
             <button
+              className="Navigation__menu-button"
               onClick={() => {
+                onOpen(!isOpen)
                 setIsOpen(!isOpen)
               }}
             >
-              Open
+              <Menu isOpen={isOpen} />
             </button>
           </div>
         </div>
@@ -84,7 +88,7 @@ const MobileNavigation = () => {
                   className="Navigation__link-anchor"
                   activeClassName="Navigation__active"
                   partiallyActive={true}
-                  to={navItem.slug}
+                  to={`/${navItem.slug}`}
                   onClick={e => {
                     if (navItem.children !== null) {
                       e.preventDefault()
@@ -96,12 +100,15 @@ const MobileNavigation = () => {
                 {navItem.children !== null ? (
                   <ul className="Subnavigation__root">
                     {navItem.children.map(child => (
-                      <li className="Subnavigation__link">
+                      <li
+                        className="Subnavigation__link"
+                        key={`subnavigation-${child.slug}`}
+                      >
                         <Link
                           className="Subnavigation__link-anchor"
                           activeClassName="Subnavigation__active"
                           partiallyActive={false}
-                          to={navItem.slug + "/" + child.slug}
+                          to={`/${navItem.slug}/${child.slug}`}
                         >
                           {child.name}
                         </Link>
@@ -116,6 +123,10 @@ const MobileNavigation = () => {
       ) : null}
     </React.Fragment>
   )
+}
+
+MobileNavigation.propTypes = {
+  onOpen: PropTypes.func.isRequired,
 }
 
 export default MobileNavigation

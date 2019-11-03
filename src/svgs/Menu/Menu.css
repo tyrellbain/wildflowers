@@ -1,0 +1,23 @@
+.Menu__root {
+  height: 30px;
+}
+
+.Menu__top-line,
+.Menu__middle-line,
+.Menu__bottom-line {
+  transition: all 0.5s ease-in-out;
+}
+
+.Menu__open .Menu__middle-line {
+  opacity: 0;
+}
+
+.Menu__open .Menu__top-line {
+  transform: rotate(45deg);
+  transform-origin: 6px 10px;
+}
+
+.Menu__open .Menu__bottom-line {
+  transform: rotate(-45deg);
+  transform-origin: 2px 21px;
+}

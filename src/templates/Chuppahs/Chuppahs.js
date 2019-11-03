@@ -48,8 +48,8 @@ const Chuppahs = ({ data }) => {
             <p>
               <Link class="Chuppahs__contact" to="/contact">
                 Contact us
-              </Link>{" "}
-              for a quote.
+              </Link>
+              &nbsp;for a quote.
             </p>
             <p>Mazel Tov!</p>
           </div>

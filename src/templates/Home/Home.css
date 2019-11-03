@@ -2,8 +2,19 @@
   height: 100%;
 }
 
-.Home__love-letters__heading {
+.Home__mission__root {
+  padding: 40px 0;
+}
+
+.Home__mission__heading,
+.Home__love-letters__heading,
+.Home__mission__paragraph {
   text-align: center;
+}
+
+.Home__mission__paragraph {
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .Home__love-letters__grid {
