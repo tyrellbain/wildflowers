@@ -11,7 +11,11 @@ class Navigation extends React.PureComponent {
   state = {}
   constructor() {
     super()
-    this.state = { breakpoint: getBreakpoint(window.outerWidth) }
+    if (typeof window !== "undefined") {
+      this.state = { breakpoint: getBreakpoint(window.outerWidth) }
+    } else {
+      this.state = { breakpoint: breakpoints.MOBILE }
+    }
   }
 
   componentDidMount() {
