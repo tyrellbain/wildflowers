@@ -66,12 +66,6 @@
     "caption": "Test Caption 1"
   },
   {
-    "imgSrc": "./images/jenny_lucas/jenny_lucas_floral_detail.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["jenny-lucas"],
-    "caption": "Test Caption 1"
-  },
-  {
     "imgSrc": "./images/jenny_lucas/jenny_lucas_low_centrepiece.jpg",
     "imgAlt": "Test Alt 1",
     "tags": ["jenny-lucas"],
@@ -141,12 +135,6 @@
     "imgSrc": "./images/jenny_lucas/jenny_lucas_centerpieces_cover.jpg",
     "imgAlt": "Test Alt 1",
     "tags": ["centrepieces", "jenny-lucas"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/jenny_lucas/jenny_lucas_centerpieces_close_up.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["jenny-lucas"],
     "caption": "Test Caption 1"
   },
   {
@@ -330,12 +318,6 @@
     "caption": "Test Caption 1"
   },
   {
-    "imgSrc": "./images/jordana_michael/Jordana_Mike_Low_Centrepiece.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["centrepieces", "jordana-michael"],
-    "caption": "Test Caption 1"
-  },
-  {
     "imgSrc": "./images/jordana_michael/Jordana_Mike_Low_Centrepieces.jpg",
     "imgAlt": "Test Alt 1",
     "tags": ["centrepieces", "jordana-michael"],
@@ -487,12 +469,6 @@
   },
   {
     "imgSrc": "./images/nora_harley/Nora_Harley_flower_detail.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["nora-harley"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/nora_harley/Nora_Harley_flowers.jpg",
     "imgAlt": "Test Alt 1",
     "tags": ["nora-harley"],
     "caption": "Test Caption 1"
@@ -1086,12 +1062,6 @@
     "caption": "Test Caption 1"
   },
   {
-    "imgSrc": "./images/lyla_billy/lyla_billy_ceremony.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["lyla-billy"],
-    "caption": "Test Caption 1"
-  },
-  {
     "imgSrc": "./images/lyla_billy/lyla_billy_chuppah_detail.jpg",
     "imgAlt": "Test Alt 1",
     "tags": ["chuppahs", "lyla-billy"],
@@ -1111,12 +1081,6 @@
   },
   {
     "imgSrc": "./images/lyla_billy/lyla_billy_floral_arrangement.jpg",
-    "imgAlt": "Test Alt 1",
-    "tags": ["lyla-billy"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/lyla_billy/lyla_billy_flower_decor.jpg",
     "imgAlt": "Test Alt 1",
     "tags": ["lyla-billy"],
     "caption": "Test Caption 1"
