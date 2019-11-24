@@ -46,7 +46,14 @@ const Chuppahs = ({ data }) => {
           <div dangerouslySetInnerHTML={{ __html: content }} />
           <div>
             <p>
-              <Link class="Chuppahs__contact" to="/contact">
+              Have a look at our&nbsp;
+              <Link class="Chuppahs__link" to="/gallery/chuppahs">
+                Chuppah Gallery
+              </Link>
+              &nbsp;for inspiration.
+            </p>
+            <p>
+              <Link class="Chuppahs__link" to="/contact">
                 Contact us
               </Link>
               &nbsp;for a quote.
