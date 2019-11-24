@@ -1524,12 +1524,6 @@
     "caption": "Test Caption 1"
   },
   {
-    "imgSrc": "./images/jonny_jon/jonny_jon_tote_bag.jpg",
-    "imgAlt": "Personalized tote bag at wedding",
-    "tags": ["jonny-jon"],
-    "caption": "Test Caption 1"
-  },
-  {
     "imgSrc": "./images/jonny_jon/jonny_jon_centrepiece.jpg",
     "imgAlt": "Centrepiece on table at wedding",
     "tags": ["centrepieces", "jonny-jon"],
@@ -1548,12 +1542,6 @@
     "caption": "Test Caption 1"
   },
   {
-    "imgSrc": "./images/jonny_jon/jonny_jon_cake_topper.jpg",
-    "imgAlt": "Cake topper of two grooms",
-    "tags": ["jonny-jon"],
-    "caption": "Test Caption 1"
-  },
-  {
     "imgSrc": "./images/jonny_jon/jonny_jon_bar.jpg",
     "imgAlt": "Wedding bar with illustration of grooms",
     "tags": ["jonny-jon"],
@@ -1562,18 +1550,6 @@
   {
     "imgSrc": "./images/jonny_jon/jonny_jon_dancing.jpg",
     "imgAlt": "Grooms on dance floor",
-    "tags": ["jonny-jon"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/jonny_jon/jonny_jon_drag_performance.jpg",
-    "imgAlt": "Drag performance at wedding",
-    "tags": ["jonny-jon"],
-    "caption": "Test Caption 1"
-  },
-  {
-    "imgSrc": "./images/jonny_jon/jonny_jon_drag.jpg",
-    "imgAlt": "Drag queen at wedding reception",
     "tags": ["jonny-jon"],
     "caption": "Test Caption 1"
   },
