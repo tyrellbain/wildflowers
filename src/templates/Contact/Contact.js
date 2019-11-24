@@ -31,7 +31,7 @@ export const query = graphql`
   }
 `
 
-const API_PATH = "http://localhost:8888/email.php"
+const API_PATH = "http://localhost:8888/wildflowers/email.php"
 
 // used to render out the gallery page
 class Contact extends React.PureComponent {
@@ -41,6 +41,11 @@ class Contact extends React.PureComponent {
     occasion: "",
     phoneNumber: "",
     message: "",
+    res: {
+      sent: false,
+      status: "",
+      message: "",
+    },
   }
 
   _handleFormSubmit = e => {
@@ -52,10 +57,22 @@ class Contact extends React.PureComponent {
       data: this.state,
     })
       .then(result => {
-        console.log(result)
+        this.setState({
+          res: {
+            sent: true,
+            status: result.data.status,
+            message: result.data.message,
+          },
+        })
       })
       .catch(error => {
-        console.log(error)
+        this.setState({
+          res: {
+            sent: true,
+            status: "error",
+            message: error,
+          },
+        })
       })
   }
 
@@ -76,82 +93,100 @@ class Contact extends React.PureComponent {
               className="Contact__content"
               dangerouslySetInnerHTML={{ __html: content }}
             />
-            <form className="Contact__form" id="contact_form">
-              <div className="Contact__formgroup">
-                <label className="Contact__label" htmlFor="name">
-                  Name
-                </label>
-                <input
-                  className="Contact__input"
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                  value={this.state.name}
-                  onChange={e => this.setState({ name: e.target.value })}
-                  required
-                />
-              </div>
-              <div className="Contact__formgroup">
-                <label className="Contact__label" htmlFor="email">
-                  Email
-                </label>
-                <input
-                  className="Contact__input"
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                  value={this.state.email}
-                  onChange={e => this.setState({ email: e.target.value })}
-                  required
-                />
-              </div>
-              <div className="Contact__formgroup">
-                <label className="Contact__label" htmlFor="occasion">
-                  Occasion
-                </label>
-                <input
-                  className="Contact__input"
-                  type="text"
-                  name="occasion"
-                  placeholder="Occasion"
-                  value={this.state.occasion}
-                  onChange={e => this.setState({ occasion: e.target.value })}
-                />
-              </div>
-              <div className="Contact__formgroup">
-                <label className="Contact__label" htmlFor="phone">
-                  Phone Number
-                </label>
-                <input
-                  className="Contact__input"
-                  type="tel"
-                  name="phoneNumber"
-                  placeholder="Phone Number"
-                  value={this.state.phoneNumber}
-                  onChange={e => this.setState({ phoneNumber: e.target.value })}
-                />
-              </div>
-              <div className="Contact__formgroup">
-                <label className="Contact__label" htmlFor="message">
-                  Message
-                </label>
-                <textarea
-                  className="Contact__textarea"
-                  id="message"
-                  name="message"
-                  placeholder="Your Message"
-                  value={this.state.message}
-                  onChange={e => this.setState({ message: e.target.value })}
-                ></textarea>
-              </div>
-              <button
-                className="Contact__submit"
-                type="submit"
-                onClick={e => this._handleFormSubmit(e)}
+            {this.state.res.sent ? (
+              <h2
+                className={
+                  this.state.res.status === "success"
+                    ? "Contact__form__success-heading"
+                    : "Contact__form__fail-heading"
+                }
               >
-                Submit
-              </button>
-            </form>
+                {this.state.res.message}
+              </h2>
+            ) : (
+              <form className="Contact__form" id="contact_form">
+                <div className="Contact__formgroup">
+                  <label className="Contact__label" htmlFor="name">
+                    Name
+                  </label>
+                  <input
+                    className="Contact__input"
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Name"
+                    value={this.state.name}
+                    onChange={e => this.setState({ name: e.target.value })}
+                    required
+                  />
+                </div>
+                <div className="Contact__formgroup">
+                  <label className="Contact__label" htmlFor="email">
+                    Email
+                  </label>
+                  <input
+                    className="Contact__input"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    value={this.state.email}
+                    onChange={e => this.setState({ email: e.target.value })}
+                    required
+                  />
+                </div>
+                <div className="Contact__formgroup">
+                  <label className="Contact__label" htmlFor="occasion">
+                    Occasion
+                  </label>
+                  <input
+                    className="Contact__input"
+                    type="text"
+                    id="occasion"
+                    name="occasion"
+                    placeholder="Occasion"
+                    value={this.state.occasion}
+                    onChange={e => this.setState({ occasion: e.target.value })}
+                  />
+                </div>
+                <div className="Contact__formgroup">
+                  <label className="Contact__label" htmlFor="phone">
+                    Phone Number
+                  </label>
+                  <input
+                    className="Contact__input"
+                    type="tel"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="Phone Number"
+                    value={this.state.phoneNumber}
+                    onChange={e =>
+                      this.setState({ phoneNumber: e.target.value })
+                    }
+                  />
+                </div>
+                <div className="Contact__formgroup">
+                  <label className="Contact__label" htmlFor="message">
+                    Message
+                  </label>
+                  <textarea
+                    className="Contact__textarea"
+                    id="message"
+                    name="message"
+                    placeholder="Your Message"
+                    value={this.state.message}
+                    onChange={e => this.setState({ message: e.target.value })}
+                  ></textarea>
+                </div>
+                <button
+                  className="Contact__submit"
+                  type="submit"
+                  onClick={e => this._handleFormSubmit(e)}
+                >
+                  Submit
+                </button>
+              </form>
+            )}
           </div>
         </Grid>
       </Layout>

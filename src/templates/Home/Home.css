@@ -17,6 +17,10 @@
   max-width: 700px;
 }
 
+.Home__love-letters__root {
+  padding-bottom: 40px;
+}
+
 .Home__love-letters__grid {
   flex-grow: 0;
 }

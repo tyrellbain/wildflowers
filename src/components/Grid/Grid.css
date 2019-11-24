@@ -48,6 +48,14 @@
   .Grid__mobileColumnFour {
     max-width: calc(25% - 10px);
   }
+
+  .Grid__mobileColumnFive {
+    max-width: calc(20% - 10px);
+  }
+
+  .Grid__mobileColumnSix {
+    max-width: calc(16.666% - 10px);
+  }
 }
 
 @media (min-width: 768px) {
@@ -80,6 +88,14 @@
 
   .Grid__tabletColumnFour {
     max-width: calc(25% - 10px);
+  }
+
+  .Grid__tabletColumnFive {
+    max-width: calc(20% - 10px);
+  }
+
+  .Grid__tabletColumnSix {
+    max-width: calc(16.666% - 10px);
   }
 }
 
@@ -120,5 +136,13 @@
 
   .Grid__desktopColumnFour {
     max-width: calc(25% - 10px);
+  }
+
+  .Grid__desktopColumnFive {
+    max-width: calc(20% - 10px);
+  }
+
+  .Grid__desktopColumnSix {
+    max-width: calc(16.666% - 10px);
   }
 }

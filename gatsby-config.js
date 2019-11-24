@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `http://www.wildflowers.ca`,
     title: `Wildflowers Toronto Florist Studio`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Wildflowers & Co. is a Toronto florist specializing in wedding flowers, chuppahs, wedding centrepieces, bridal bouquets and flower arrangements for events.`,
     author: `Tyrell Bain`,
   },
   plugins: [
@@ -17,6 +18,12 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-153160129-1",
+      },
+    },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `wildflowersandco`,
       },
     },
     {

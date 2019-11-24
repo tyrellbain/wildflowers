@@ -10,12 +10,13 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ siteUrl, description, lang, meta, title }) {
   const { site } = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
+            siteUrl
             title
             description
             author
@@ -26,6 +27,24 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+
+  const schemaOrgWebPage = {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    url: siteUrl,
+    inLanguage: lang,
+    mainEntityOfPage: siteUrl,
+    description: site.siteMetadata.description,
+    name: title,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Toronto",
+      addressRegion: "ON",
+      streetAddress: "99 Brisbane Road # 13",
+    },
+    telephone: "416-663-2913",
+    datePublished: "2019-11-18",
+  }
 
   return (
     <Helmet
@@ -68,7 +87,13 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      {
+        <script type="application/ld+json">
+          {JSON.stringify(schemaOrgWebPage)}
+        </script>
+      }
+    </Helmet>
   )
 }
 
@@ -79,6 +104,7 @@ SEO.defaultProps = {
 }
 
 SEO.propTypes = {
+  siteUrl: PropTypes.string,
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),

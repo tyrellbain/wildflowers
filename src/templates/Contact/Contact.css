@@ -3,6 +3,14 @@
   min-height: 350px;
 }
 
+.Contact__form__success-heading {
+  color: #146f2e;
+}
+
+.Contact__form__fail-heading {
+  color: #e00b0b;
+}
+
 .Contact__content {
   margin-bottom: 40px;
 }
