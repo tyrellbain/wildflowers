@@ -31,7 +31,7 @@ export const query = graphql`
   }
 `
 
-const API_PATH = "http://localhost:8888/wildflowers/email.php"
+const API_PATH = "www.wildflowers.ca/email.php"
 
 // used to render out the gallery page
 class Contact extends React.PureComponent {
